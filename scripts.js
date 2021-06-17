@@ -47,10 +47,6 @@ newDiceBtn.addEventListener('click', () => {
 
 rerollDiceBtn.addEventListener('click', () => {
     console.log("Reroll Dice Button Clicked");
-    // for (let i = 0; i < dieArray.length; i++) {
-    //     console.log(dieArray[i]);
-    //     dieArray[i].die.rollNumber();
-    // }
     dieArray.forEach(die => {die.rollNumber();});
 });
 
